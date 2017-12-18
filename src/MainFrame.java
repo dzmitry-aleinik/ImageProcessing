@@ -27,21 +27,24 @@ public class MainFrame extends JFrame {
         JMenuBar jMenuBar =new JMenuBar();
         JMenu file = new JMenu("File");
         JMenu tools = new JMenu("Tools");
-        JMenuItem reduceNoise = new JMenuItem("noiseReducing");
+        JMenuItem medianFilter = new JMenuItem("MedianFilter");
+        JMenuItem averageFilter = new JMenuItem("AverageFilter");
         JMenuItem imageHistogram = new JMenuItem("Image Histogram");
         JMenuItem imageGray = new JMenuItem("Grayscale");
         JMenuItem open = new JMenuItem("Open");
         JMenuItem imageBinary = new JMenuItem("Binary");
         file.add(open);
-        tools.add(reduceNoise);
         tools.add(imageHistogram);
         tools.add(imageGray);
         tools.add(imageBinary);
+        tools.add(averageFilter);
+        tools.add(medianFilter);
         jMenuBar.add(file);
         jMenuBar.add(tools);
         this.setJMenuBar(jMenuBar);
         JLabel labelForImage = new JLabel();
         this.add(labelForImage);
+
         open.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -75,11 +78,11 @@ public class MainFrame extends JFrame {
                 labelForImage.setIcon(new ImageIcon(image));
             }
         });
-        reduceNoise.addActionListener(new ActionListener() {
+        medianFilter.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                image = ImageProcessor.removeNoiseFromBin(image);
+                image = ImageProcessor.removeNoiseMedianFilter(image);
                 labelForImage.setIcon(new ImageIcon(image));
             }
         });
@@ -87,6 +90,13 @@ public class MainFrame extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 image = ImageProcessor.performBinary(image);
+                labelForImage.setIcon(new ImageIcon(image));
+            }
+        });
+        averageFilter.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                image = ImageProcessor.removeNoiseAverageFilter(image);
                 labelForImage.setIcon(new ImageIcon(image));
             }
         });

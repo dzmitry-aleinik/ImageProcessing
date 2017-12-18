@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bd6471a-4947-4a0a-abb8-6b4ac85d2e38" name="Default" comment="" />
+    <list default="true" id="1bd6471a-4947-4a0a-abb8-6b4ac85d2e38" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/ImageService.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/ImageService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$1.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$2.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$3.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$4.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$5.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/WrongImageException.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/WrongImageException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImageProcessor.java" afterPath="$PROJECT_DIR$/src/ImageProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImageService.java" afterPath="$PROJECT_DIR$/src/ImageService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainFrame.java" afterPath="$PROJECT_DIR$/src/MainFrame.java" />
+    </list>
     <ignored path="ImageGistogram.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,8 +38,8 @@
       <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+            <state relative-caret-position="434">
+              <caret line="99" column="60" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageProcessor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ImageProcessor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ImageProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="122" column="78" selection-start-line="122" selection-start-column="78" selection-end-line="122" selection-end-column="78" />
+            <state relative-caret-position="1402">
+              <caret line="124" column="79" selection-start-line="124" selection-start-column="79" selection-end-line="124" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImageService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ImageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="550">
+              <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,6 +90,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -90,9 +106,9 @@
         <option value="$PROJECT_DIR$/src/Painting.java" />
         <option value="$PROJECT_DIR$/src/Man.java" />
         <option value="$PROJECT_DIR$/src/Exceptions.java" />
-        <option value="$PROJECT_DIR$/src/ImageProcessor.java" />
         <option value="$PROJECT_DIR$/src/ImageService.java" />
         <option value="$PROJECT_DIR$/src/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/ImageProcessor.java" />
       </list>
     </option>
   </component>
@@ -133,48 +149,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ImageGistogram" />
+              <option name="myItemId" value="ImageProcessing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageGistogram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageGistogram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageGistogram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageGistogram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SimpleGraphicEditor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
@@ -529,8 +521,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864807" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18133047" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -547,6 +538,7 @@
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -574,6 +566,44 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Man.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2552">
+          <caret line="122" column="78" selection-start-line="122" selection-start-column="78" selection-end-line="122" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -784,18 +814,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="122" column="78" selection-start-line="122" selection-start-column="78" selection-end-line="122" selection-end-column="78" />
+        <state relative-caret-position="434">
+          <caret line="99" column="60" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -804,8 +824,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ImageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="550">
+          <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1402">
+          <caret line="124" column="79" selection-start-line="124" selection-start-column="79" selection-end-line="124" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

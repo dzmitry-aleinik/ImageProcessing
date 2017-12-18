@@ -113,35 +113,21 @@ public class ImageProcessor {
         }
         return list.size() == 0 ? 0 : result / list.size();
     }
-    public static BufferedImage removeNoiseFromBin(BufferedImage image) {
-        BufferedImage  editedImage = new BufferedImage(image.getWidth(),image.getHeight(),image.getType());
-        WritableRaster editableRaster = editedImage.getRaster();
-
+    public static BufferedImage removeNoiseMedianFilter(BufferedImage image) {
         for(int i = 1 ; i < image.getWidth()-1; i++){
            for (int j = 1; j < image.getHeight()-1; j++){
-               int pixel = image.getRGB(i,j);
                image.setRGB(i,j, ImageService.medianFilter(i,j,image).getRGB());
-               /*
-                Color color = new Color(pixel);
-                int pixelCharacteristic = color.getRed();
-               if (  ImageService.medianFilter(i,j,image, pixelCharacteristic)){
-                   if(pixelCharacteristic !=0) {
-                       editableRaster.setPixel(i, j, new int[]{1});
-                   }else {
-                       editableRaster.setPixel(i, j, new int[]{0});
-                   }
-               }
-               else{
-                   if(pixelCharacteristic !=0) {
-                       editableRaster.setPixel(i, j, new int[]{0});
-                   }else {
-                       editableRaster.setPixel(i, j, new int[]{1});
-                   }
-
-               }*/
            }
         }
+        return image;
 
+    }
+    public static BufferedImage removeNoiseAverageFilter(BufferedImage image) {
+        for(int i = 1 ; i < image.getWidth()-1; i++){
+            for (int j = 1; j < image.getHeight()-1; j++){
+                image.setRGB(i,j, ImageService.medianFilter(i,j,image).getRGB());
+            }
+        }
         return image;
 
     }

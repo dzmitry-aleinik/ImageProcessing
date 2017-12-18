@@ -34,10 +34,29 @@ public class ImageService {
         Collections.sort(blues);
 
         return new Color(reds.get(4),greens.get(4),blues.get(4));
+    }
 
+    public static Color averageFilter (int x, int y, BufferedImage image){
+        ArrayList<Integer> reds = new ArrayList<>();
+        ArrayList<Integer> greens = new ArrayList<>();
+        ArrayList <Integer>  blues = new ArrayList<>();
+        int redAverage = 0;
+        int greenAverage = 0;
+        int blueAverage = 0;
 
+        for (int i= -1 ; i<2 ; i++){
+            int upPixel = image.getRGB(x + i, y + 1);
+            int downPixel = image.getRGB(x + i, y - 1);
+            int middlePixel = image.getRGB(x,y+i);
+            Color upColor = new Color(upPixel);
+            Color downColor = new Color(downPixel);
+            Color middleColor = new Color (middlePixel);
+            redAverage += upColor.getRed();
+            greenAverage += downColor.getGreen();
+            blueAverage += middleColor.getBlue();
+        }
 
-
+        return new Color(redAverage/9,greenAverage/9,blueAverage/9);
 
     }
 }
