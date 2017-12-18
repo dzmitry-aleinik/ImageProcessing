@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.marvinproject.image.histogram.colorHistogram">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/marvin/plugins/image/org.marvinproject.image.histogram.colorHistogram.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
