@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bd6471a-4947-4a0a-abb8-6b4ac85d2e38" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/ImageService.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/ImageService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$1.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$2.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$3.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$4.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$5.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/MainFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImageGistogram/WrongImageException.class" afterPath="$PROJECT_DIR$/out/production/ImageGistogram/WrongImageException.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImageProcessor.java" afterPath="$PROJECT_DIR$/src/ImageProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImageService.java" afterPath="$PROJECT_DIR$/src/ImageService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainFrame.java" afterPath="$PROJECT_DIR$/src/MainFrame.java" />
     </list>
     <ignored path="ImageGistogram.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="99" column="60" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
+            <state relative-caret-position="403">
+              <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageProcessor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImageProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ImageProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1402">
-              <caret line="124" column="79" selection-start-line="124" selection-start-column="79" selection-end-line="124" selection-end-column="79" />
+            <state relative-caret-position="66">
+              <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,7 +61,7 @@
       <file leaf-file-name="ImageService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ImageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="1276">
               <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -106,9 +95,9 @@
         <option value="$PROJECT_DIR$/src/Painting.java" />
         <option value="$PROJECT_DIR$/src/Man.java" />
         <option value="$PROJECT_DIR$/src/Exceptions.java" />
+        <option value="$PROJECT_DIR$/src/ImageProcessor.java" />
         <option value="$PROJECT_DIR$/src/ImageService.java" />
         <option value="$PROJECT_DIR$/src/MainFrame.java" />
-        <option value="$PROJECT_DIR$/src/ImageProcessor.java" />
       </list>
     </option>
   </component>
@@ -119,10 +108,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-8" />
+    <option name="width" value="1643" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -149,6 +137,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -159,14 +150,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SimpleGraphicEditor" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
@@ -507,7 +495,7 @@
     <option name="totallyTimeSpent" value="2229000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="0" width="1643" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -517,11 +505,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32392776" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32762557" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18133047" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21924792" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -566,6 +554,44 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1958">
+          <caret line="99" column="60" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Man.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -812,10 +838,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/ImageProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="99" column="60" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
+        <state relative-caret-position="66">
+          <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -824,7 +850,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ImageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="1276">
           <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -832,10 +858,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImageProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1402">
-          <caret line="124" column="79" selection-start-line="124" selection-start-column="79" selection-end-line="124" selection-end-column="79" />
+        <state relative-caret-position="403">
+          <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
